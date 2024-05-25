@@ -14,25 +14,24 @@
 
             <form id="taskForm">
                 <!-- Task form inputs go here -->
+                <label for="taskName"> Task Name: </label>
+                <input type="text" id="taskName" name="taskName">
+
+                <br><br>
+
+                <label for="taskDescription"> Task Description: </label>
+                <textarea id="taskDescription" name="taskDescription"></textarea>
+                
+                <br><br>
+
+                <label for="taskDeadline"> Task Deadline: </label>
+                <input type="date" id="taskDeadline" name="taskDeadline">
+                
+                <br><br>
                 <button type="submit">Add Task</button>
             </form>
 
         <table id="taskTable">
-            
-            <label for="taskName"> Task Name: </label>
-            <input type="text" id="taskName" name="taskName">
-
-            <br><br>
-
-            <label for="taskDescription"> Task Description: </label>
-            <textarea id="taskDescription" name="taskDescription"></textarea>
-            
-            <br><br>
-
-            <label for="taskDeadline"> Task Deadline: </label>
-            <input type="date" id="taskDeadline" name="taskDeadline">
-            
-            <br><br>
         </table>
 
         </div>

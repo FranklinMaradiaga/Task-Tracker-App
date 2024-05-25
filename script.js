@@ -56,3 +56,6 @@ function init() {
     tasks = []; // Reset the tasks array
     render(); // Call the render function
 }
+
+taskForm.addEventListener('submit', handleSubmission);
+init();
